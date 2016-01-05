@@ -1,0 +1,1 @@
+Grammar for parsing PDDL 3.0. Not quite complete, as it doesn't cope with preference preconditions or goals. Also doesn't yet create friendly named nodes in the AST for all of the rules. (Now fixed so works with ANTLR 3.1.1)
