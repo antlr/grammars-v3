@@ -31,6 +31,24 @@
 <!--		<module>modula2pim4</module>-->
 <!--		<module>mumath</module>-->
 		<module>mysql</module>
+<!--		<module>objc</module>-->
+<!--		<module>oraclejdbcurl</module>-->
+		<module>OracleNetServices</module>
+<!--		<module>Pascal</module>-->
+		<module>pddl</module>
+		<module>PLSQL</module>
+<!--		<module>PowerBuilder</module>-->
+<!--		<module>python</module>-->
+<!--		<module>rcs</module>-->
+<!--		<module>ruby</module>-->
+		<module>sexpression</module>
+<!--		<module>unicode</module>-->
+<!--		<module>ValueChangeDump</module>-->
+<!--		<module>verilog</module>-->
+<!--		<module>vhdl</module>-->
+		<module>wavefront</module>
+		<module>xpath</module>
+		<module>xpath2</module>
 	</modules>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
