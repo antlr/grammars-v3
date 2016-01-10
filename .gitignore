@@ -1,0 +1,7 @@
+**/.DS_Store
+/**/.project
+/**/.classpath
+/**/.settings/
+/**/target
+
+.fetch_time_cache
