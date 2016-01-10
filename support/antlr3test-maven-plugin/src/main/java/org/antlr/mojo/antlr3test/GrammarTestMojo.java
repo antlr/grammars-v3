@@ -240,9 +240,8 @@ public class GrammarTestMojo extends AbstractMojo {
        * get parser
        */
       Parser parser = (Parser) parserConstructor.newInstance(tokens);
-      System.out.print(entryPoint);
       final Method method = parserClass.getMethod(entryPoint);
-      // ParserRuleContext parserRuleContext = (ParserRuleContext) method.invoke(parser);
+      method.invoke(parser);
       /*
        * show the tree
        */
