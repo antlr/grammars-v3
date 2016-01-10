@@ -8,6 +8,11 @@ Beware of the licenses on the individual grammars. **THERE IS NO COMMON
 LICENSE!** When in doubt or you don't know what you're doing, please use
 the BSD or MIT license.
 
+Warning
+------------
+
+These are legacy Antlr3 grammars.  Many have not been updated for the latest version of Antlr3, and may fail to parse using the latest Antlr3.  The grammars that parse properly are those that are not commented out in the root `pom.xml`
+
 Testing the Grammars
 ------------
 
