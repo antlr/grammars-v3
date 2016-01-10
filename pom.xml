@@ -1,0 +1,86 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.antlr.grammarsv3</groupId>
+	<artifactId>grammarsv3</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<name>ANTLR3 grammars</name>
+	<modules>
+		<module>ANSI-C</module>
+		<module>Antlrv3</module>
+		<module>CSV</module>
+		<module>asm</module>
+		<module>asn</module>
+	<!--	<module>C-preprocessor</module>-->
+	<!--	<module>cpp</module>-->
+		<module>css21</module>
+	<!--	<module>csharp</module>-->
+	<!--	<module>css3</module-->
+	<!--	<module>CUDAPTX</module>-->
+		<module>dcm</module>
+		<module>ECMAScript</module>
+		<module>FirstOrderLogic</module>
+<!--		<module>fortran77</module>-->
+<!--		<module>FreeMPS</module>-->
+<!--		<module>idl</module>-->
+<!--		<module>informix</module>-->
+		<module>Java1.6</module>
+<!--		<module>javastacktrace</module>-->
+<!--		<module>jpa</module>-->
+		<module>KUKA</module>
+		<module>lua</module>
+<!--		<module>mdx</module>-->
+<!--		<module>memcached</module>-->
+<!--		<module>modula2pim4</module>-->
+<!--		<module>mumath</module>-->
+		<module>mysql</module>
+<!--		<module>objc</module>-->
+<!--		<module>oraclejdbcurl</module>-->
+		<module>OracleNetServices</module>
+<!--		<module>Pascal</module>-->
+		<module>pddl</module>
+		<module>PLSQL</module>
+<!--		<module>PowerBuilder</module>-->
+<!--		<module>python</module>-->
+<!--		<module>rcs</module>-->
+<!--		<module>ruby</module>-->
+		<module>sexpression</module>
+<!--		<module>unicode</module>-->
+<!--		<module>ValueChangeDump</module>-->
+<!--		<module>verilog</module>-->
+<!--		<module>vhdl</module>-->
+		<module>wavefront</module>
+		<module>xpath</module>
+		<module>xpath2</module>
+	</modules>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<target.jvm>1.6</target.jvm>
+		<antlr.version>3.5.2</antlr.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.9.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.antlr</groupId>
+			<artifactId>antlr</artifactId>
+			<version>${antlr.version}</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
+				<configuration>
+					<source>${target.jvm}</source>
+					<target>${target.jvm}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
