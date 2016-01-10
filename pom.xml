@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.antlr.grammarsv3</groupId>
+	<artifactId>grammarsv3</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<name>ANTLR3 grammars</name>
+	<modules>
+		<module>csv</module>
+	</modules>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<target.jvm>1.6</target.jvm>
+		<antlr.version>3.5.2</antlr.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.9.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.antlr</groupId>
+			<artifactId>antlr</artifactId>
+			<version>${antlr.version}</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.0</version>
+				<configuration>
+					<source>${target.jvm}</source>
+					<target>${target.jvm}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
