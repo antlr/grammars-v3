@@ -11,7 +11,10 @@
 		<module>CSV</module>
 		<module>asm</module>
 		<module>asn</module>
+	<!--	<module>C-preprocessor</module>-->
+	<!--	<module>cpp</module>-->
 		<module>css21</module>
+	<!--	<module>csharp</module>-->
 	<!--	<module>css3</module-->
 	<!--	<module>CUDAPTX</module>-->
 		<module>dcm</module>
