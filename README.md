@@ -30,5 +30,3 @@ Travis Status
 ---------
 
 <a href="https://travis-ci.org/teverett/grammars-v3"><img src="https://api.travis-ci.org/teverett/grammars-v3.png"></a>
-
-
