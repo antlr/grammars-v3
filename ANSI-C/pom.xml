@@ -34,7 +34,7 @@
 				<groupId>org.antlr</groupId>
 				<artifactId>antlr3test-maven-plugin</artifactId>
 				<configuration>
-					<verbose>false</verbose>
+					<verbose>true</verbose>
 					<showTree>false</showTree>
 					<entryPoint>translation_unit</entryPoint>
 					<grammarName>C</grammarName>

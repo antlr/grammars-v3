@@ -30,7 +30,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			<!--
 			<plugin>
 				<groupId>org.antlr</groupId>
 				<artifactId>antlr3test-maven-plugin</artifactId>
@@ -38,7 +37,7 @@
 					<verbose>false</verbose>
 					<showTree>false</showTree>
 					<entryPoint>file</entryPoint>
-					<grammarName>csv</grammarName>
+					<grammarName>MySQL</grammarName>
 					<packageName></packageName>
 					<exampleFiles>examples/</exampleFiles>
 				</configuration>
@@ -50,7 +49,6 @@
 					</execution>
 				</executions>
 			</plugin>
-		-->
 		</plugins>
 	</build>
 </project>

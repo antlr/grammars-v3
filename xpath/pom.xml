@@ -30,15 +30,14 @@
 					</execution>
 				</executions>
 			</plugin>
-			<!--
 			<plugin>
 				<groupId>org.antlr</groupId>
 				<artifactId>antlr3test-maven-plugin</artifactId>
 				<configuration>
-					<verbose>false</verbose>
+					<verbose>true</verbose>
 					<showTree>false</showTree>
-					<entryPoint>file</entryPoint>
-					<grammarName>csv</grammarName>
+					<entryPoint>xpath</entryPoint>
+					<grammarName>XPath1</grammarName>
 					<packageName></packageName>
 					<exampleFiles>examples/</exampleFiles>
 				</configuration>
@@ -50,7 +49,6 @@
 					</execution>
 				</executions>
 			</plugin>
-		-->
 		</plugins>
 	</build>
 </project>
