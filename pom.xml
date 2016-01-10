@@ -47,7 +47,7 @@
 		<module>sexpression</module>
 <!--		<module>unicode</module>-->
 <!--		<module>ValueChangeDump</module>-->
-<!--		<module>verilog</module>-->
+		<module>verilog</module>
 <!--		<module>vhdl</module>-->
 		<module>wavefront</module>
 		<module>xpath</module>
