@@ -34,7 +34,7 @@
 <!--		<module>modula2pim4</module>-->
 <!--		<module>mumath</module>-->
 		<module>mysql</module>
-<!--		<module>objc</module>-->
+		<module>objc</module>
 <!--		<module>oraclejdbcurl</module>-->
 		<module>OracleNetServices</module>
 <!--		<module>Pascal</module>-->
