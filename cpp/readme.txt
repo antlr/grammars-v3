@@ -1,2 +1,2 @@
-Sun Microsystems / NetBeans Tue Jun 3, 2008 14:29
-ANTLR v2 Grammar for C/C++
+Ramin Zaghi Thu Aug 26, 2010 03:46
+Version 4.0.1 August 2010. Compatible with ANTLR 3.2. Please note that this is the first public release for ANTLR 3.2; This does not comiple with any older versions of ANTLR. This may also have some missing features compared to the 2007 update by David Wigg. I am publishing this work only to make this first ANTLR 3.2 update available to the community however if you are interested in a more complete work please take a look at David's 2007 update. Feedbacks are welcome. You may send your comments to Ramin Zaghi antlr3_cpp_parser-at-taggedprogramming-dot-com.
