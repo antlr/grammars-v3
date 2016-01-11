@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>unicod</artifactId>
+	<artifactId>unicode</artifactId>
 	<packaging>jar</packaging>
 	<name>ANTLR Unicode grammar</name>
 	<parent>
@@ -18,7 +18,7 @@
 				<version>${antlr.version}</version>
 				<configuration>
 					<sourceDirectory>${basedir}</sourceDirectory>
-					<grammars>AntlrUnicode.g</grammars>
+					<grammars>Unicode.g</grammars>
 					<visitor>true</visitor>
 					<listener>true</listener>
 				</configuration>
