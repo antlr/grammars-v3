@@ -22,7 +22,7 @@
 		<module>FirstOrderLogic</module>
 <!--		<module>fortran77</module>-->
 <!--		<module>FreeMPS</module>-->
-<!--		<module>idl</module>-->
+		<module>idl</module>
 <!--		<module>informix</module>-->
 		<module>Java1.6</module>
 		<module>java6separated</module>
