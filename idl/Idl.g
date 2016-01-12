@@ -1,16 +1,6 @@
 grammar Idl;
 options {k=2; backtrack=true; memoize=true; output=template;}
 
-@header
-{
-import org.antlr.stringtemplate.*;
-}
-
-@lexer::members
-{
-protected boolean enumIsKeyword = true;
-}
-
 specification
 	:	import_decl* definition+
 	;
@@ -720,9 +710,9 @@ FLOATING_PT_LITERAL
 	|	('0'..'9')+ EXPONENT? FLOAT_TYPE_SUFFIX
 	;
 	
-FIXED_PT_LITERAL
-	:	FLOATING_PT_LITERAL
-	;
+//FIXED_PT_LITERAL
+//	:	FLOATING_PT_LITERAL
+//	;
 
 fragment
 EXPONENT : ('e'|'E') ('+'|'-')? ('0'..'9')+ ;
