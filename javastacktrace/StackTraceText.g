@@ -94,16 +94,16 @@ JavaCharacter
     |    Digit)
 	;
 	
-NonCapitalLetter    :    'a'..'z';
+fragment NonCapitalLetter    :    'a'..'z';
 
-CapitalLetter
+fragment CapitalLetter
     : 'A'..'Z'
     ;
 
-Symbol	:	'_'
+fragment Symbol	:	'_'
 	;
 
-Digit    :    '0'..'9';
+fragment Digit    :    '0'..'9';
 
 WS  :  (' '|'\r'|'\t'|'\u000C'|'\n') {$channel=HIDDEN;}
     ;

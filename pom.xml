@@ -26,7 +26,7 @@
 <!--		<module>informix</module>-->
 		<module>Java1.6</module>
 		<module>java6separated</module>
-<!--		<module>javastacktrace</module>-->
+		<module>javastacktrace</module>
 <!--		<module>jpa</module>-->
 		<module>KUKA</module>
 		<module>lua</module>
