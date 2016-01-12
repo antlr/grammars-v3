@@ -30,7 +30,7 @@
 <!--		<module>jpa</module>-->
 		<module>KUKA</module>
 		<module>lua</module>
-<!--		<module>mdx</module>-->
+		<module>mdx</module>
 <!--		<module>memcached</module>-->
 <!--		<module>modula2pim4</module>-->
 <!--		<module>mumath</module>-->
