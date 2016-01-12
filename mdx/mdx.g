@@ -68,38 +68,7 @@ tokens {
 }
 
 
-@header {
-package panorama.mdx;
-	
-import java.io.DataInputStream;
-import org.antlr.CommonAST;
-import org.antlr.*;
-}
 
-
-@members {
-	
-	public static void main(String[] args) {
-        // Create a scanner that reads from the input stream passed to us
-        panorama.mdx.MDXLexer lexer = new panorama.mdx.MDXLexer(new DataInputStream(System.in));
-            
-        // Create a parser that reads from the scanner
-        panorama.mdx.MDXRecognizer parser = new panorama.mdx.MDXRecognizer(lexer);
-            
-        // start parsing at the compilationUnit rule
-        try {
-            parser.mdx_statement();
-        }
-        catch (RecognitionException e) {
-            e.printStackTrace();
-        }
-        catch (TokenStreamException e) {
-            e.printStackTrace();
-        }
-   		System.out.println("Success");
-	}
-	
-}
 
 
 mdx_statement : (select_statement 
