@@ -899,7 +899,7 @@ COMMENT_2
 // if it's a literal or really an identifer
 IDENT
 	//options {testLiterals=true;}
-	:	('a'..'z') ('a'..'z'|'0'..'9'|'_')*   //pspsps
+	:	('a'..'z'|'A'..'Z') ('a'..'z'|'A'..'Z'|'0'..'9'|'_')*   //pspsps
 	;
 
 // string literals
